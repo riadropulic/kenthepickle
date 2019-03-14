@@ -1,0 +1,250 @@
+#background {
+    background-color: lightgreen;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+
+}
+
+#ken {
+    width: 250px;
+    padding-top: 20px;
+    position: absolute;
+	left: 670px;
+
+}
+#kenthepickle{
+    font-family: sans-serif;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1em;
+
+}
+#text {
+    position: relative;
+    text-align: center;
+    top: 25px;
+    font-family: sans-serif;
+
+}
+
+#button {
+    background-color: darkseagreen;
+    border: solid 1px;
+    padding: 7px;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+
+}
+#text2 {
+    top: 70px;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ciga{
+	position: absolute;
+	bottom: 41em;
+	left: 52em;
+	display: none;
+
+}
+
+#cigarette{
+	width: 30%fh;
+}
+
+button:focus{
+	background-color:;
+}
+
+/*
+@keyframes{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 2;
+    }
+*/
+
+
+
+
+.jumponce {
+    animation: jumpp 1s ease;
+}
+@keyframes jumpp {
+	to{
+		transform: translateY(-200px);
+	}
+
+}
+
+.moveto30 {
+    animation: moveto30 2s ease;
+	animation-fill-mode: forwards;
+
+
+}
+
+@keyframes moveto30 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 700px;
+    }
+}
+
+.movefrom30 {
+    animation: movefrom30 3s linear;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes movefrom30 {
+    from {
+        left:700px;
+
+    }
+
+    to {
+        left: 1300px;
+    }
+
+}
+
+.move {
+    animation: move 1s alternate infinite;
+
+
+}
+@keyframes move{
+	50%{
+		left: 800px;
+	}
+	100%{
+		left: 600px;
+
+
+	}
+}
+
+.fade {
+    animation: fadeout  ease 1s;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+    .movetoleft{
+		animation: movetoleft;
+        animation-fill-mode: forwards;
+    }
+	@keyframes movetoleft{
+		from{
+			left: 700px;
+		}
+		to{
+			left: -600px;
+		}
+	}
+
+
+
+
+
+	/*.jumping{
+		animation: jump 2s alternate infinite;
+}
+	@keyframes jump{
+
+		to {
+			bottom: 200px;
+		}
+
+	} */
+
+	@keyframes jump {
+  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+  100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+}
+.ria{
+  transform-origin: 50% 50%;
+  animation: jump .5s linear alternate infinite;
+}
+
+
+
+
+
+
+
+
+	.fade{
+
+	}
+
+    .glow {
+        animation: glow 1s alternate infinite;
+
+    }
+
+    @keyframes glow {
+        from {box-shadow: 28px 25px 42px -14px #f8fc7e;
+
+        }
+
+		to {box-shadow: 28px 25px 42px 14px #f8fc7e;
+		}
+    }
+
+
+	.falldown{
+
+	}
+	.sing{
+
+	}
+	.shake{
+
+	}
+
+
+	.smoke{
+
+	}
+
+	.iloveyou{
+
+	}
+	.nothing{
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
